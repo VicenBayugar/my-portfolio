@@ -24,7 +24,7 @@ const About = () => {
             <article className="about_card">
               <FaRegFolderOpen className="about_icon" />
               <h5>Projects</h5>
-              <small>10 completed projects</small>
+              <small>11 completed projects</small>
             </article>
           </div>
           <p>

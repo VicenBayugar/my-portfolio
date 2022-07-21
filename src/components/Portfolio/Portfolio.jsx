@@ -10,6 +10,7 @@ import weatherapp from "../../assets/weatherapp.jpg";
 import todolist from "../../assets/todolist.jpg";
 import reserbar from "../../assets/reserbar.jpg";
 import usersapi from "../../assets/usersapi.jpg";
+import cryptoapp from "../../assets/cryptoapp.jpg";
 
 const Portfolio = () => {
   return (
@@ -17,6 +18,22 @@ const Portfolio = () => {
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
+        <article className="portfolio_item">
+          <div className="portfolio_item_image">
+            <img src={cryptoapp} alt="" width={640} height={360} />
+          </div>
+          <h3>CryptoTracker</h3>
+          <div className="portfolio_item_links">
+            <a
+              href="https://github.com/VicenBayugar/CryptoTracker"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div>
+        </article>
         <article className="portfolio_item">
           <div className="portfolio_item_image">
             <img src={reserbar} alt="" width={640} height={360} />

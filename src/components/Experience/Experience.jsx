@@ -35,6 +35,13 @@ const Experience = () => {
             <article className="experience_details">
               <BsFillCheckCircleFill className="experience_details_icon" />
               <div>
+                <h4>Styled Components</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillCheckCircleFill className="experience_details_icon" />
+              <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -57,13 +64,20 @@ const Experience = () => {
               <BsFillCheckCircleFill className="experience_details_icon" />
               <div>
                 <h4>Redux</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsFillCheckCircleFill className="experience_details_icon" />
               <div>
                 <h4>React Native</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillCheckCircleFill className="experience_details_icon" />
+              <div>
+                <h4>Typescript</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -72,20 +86,6 @@ const Experience = () => {
         <div className="experience_backend">
           <h3>Backend Development</h3>
           <div className="experience_content">
-            <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details_icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsFillCheckCircleFill className="experience_details_icon" />
-              <div>
-                <h4>Django</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
             <article className="experience_details">
               <BsFillCheckCircleFill className="experience_details_icon" />
               <div>
@@ -110,8 +110,22 @@ const Experience = () => {
             <article className="experience_details">
               <BsFillCheckCircleFill className="experience_details_icon" />
               <div>
+                <h4>SQL</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillCheckCircleFill className="experience_details_icon" />
+              <div>
                 <h4>Firebase</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillCheckCircleFill className="experience_details_icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
           </div>
